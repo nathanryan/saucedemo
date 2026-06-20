@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for Sauce Demo with Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen https://www.saucedemo.com/"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.19.43",
+    "typescript": "^5.3.3"
+  }
+}
